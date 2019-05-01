@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2beb5b7a-1e5c-44e0-8339-561501932c4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/deplotserver/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deplotserver/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/index.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deplotserver/deploy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="133">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -33,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deplotserver/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="626">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -77,8 +88,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>welcome to Go抽奖系统</find>
       <find>Post</find>
+      <find>welcome to Go抽奖系统</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -95,14 +106,15 @@
         <option value="$PROJECT_DIR$/test/test.go" />
         <option value="$PROJECT_DIR$/web/main.go" />
         <option value="$PROJECT_DIR$/deplotserver/main.go" />
-        <option value="$PROJECT_DIR$/web/controllers/index.go" />
         <option value="$PROJECT_DIR$/deplotserver/deploy.sh" />
+        <option value="$PROJECT_DIR$/web/controllers/index.go" />
+        <option value="$PROJECT_DIR$/web/build.sh" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="239" />
-    <option name="y" value="31" />
+    <option name="x" value="377" />
+    <option name="y" value="46" />
     <option name="width" value="1523" />
     <option name="height" value="993" />
   </component>
@@ -258,7 +270,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="31" width="1523" height="993" extended-state="0" />
+    <frame x="377" y="46" width="1523" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20526671" />
@@ -291,13 +303,6 @@
     <entry file="file://$PROJECT_DIR$/safe/main_test.go" />
     <entry file="file://$PROJECT_DIR$/luckly.go" />
     <entry file="file://$PROJECT_DIR$/test/test.go" />
-    <entry file="file://$PROJECT_DIR$/web/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/admin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -314,8 +319,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deplotserver/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="626">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deplotserver/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -326,10 +345,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deplotserver/deploy.sh">
+    <entry file="file://$PROJECT_DIR$/web/build.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="38">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
