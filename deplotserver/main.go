@@ -33,6 +33,7 @@ func reLaunch()  {
 	err := cmd.Start()
 	if err != nil{
 		log.Fatal(err)
+		logger.Printf("error%v", err)
 	}
 	err = cmd.Wait()
 }
@@ -45,7 +46,7 @@ func (c *baseController) Post() string {
 
 // 初始化日志信息
 func initLog() {
-	f, _ := os.Create("/tmp/lottery_deploy.log")
+	f, _ := os.Create("./lottery_deploy.log")
 	logger = log.New(f, "", log.Ldate|log.Lmicroseconds)
 }
 
