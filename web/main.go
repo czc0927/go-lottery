@@ -12,7 +12,7 @@ var port = 8080
 
 func newApp() *bootstrap.Bootstrapper {
 	// 初始化应用
-	app := bootstrap.New("Go抽奖系统", "一凡Sir")
+	app := bootstrap.New("Go--test--", "cc")
 	app.Bootstrap()
 	app.Configure(identity.Configure, routes.Configure)
 
