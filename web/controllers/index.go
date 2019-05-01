@@ -29,7 +29,7 @@ type IndexController struct {
 // http://localhost:8080/
 func (c *IndexController) Get() string {
 	c.Ctx.Header("Content-Type", "text/html")
-	return "Go-server--test--，<a href='/public/index.html'>开始抽奖</a>"
+	return "Go-server--test-- Ha Ha  Ha Ha Ha Ha Ha Ha <a href='/public/index.html'>开始抽奖</a>"
 }
 
 // http://localhost:8080/gifts
