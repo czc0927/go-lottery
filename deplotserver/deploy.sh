@@ -1,5 +1,4 @@
 #!/bin/bash
-su -
 kill -9 $(pgrep web)
 cd /home/work/server/go/src/lottery
 git clean  -d  -fx
