@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2beb5b7a-1e5c-44e0-8339-561501932c4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/controllers/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deplotserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/deplotserver/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +21,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/controllers/index.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="133">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deplotserver/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_demo/annualMeeting/main_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,6 +78,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>welcome to Go抽奖系统</find>
+      <find>Post</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -78,6 +96,7 @@
         <option value="$PROJECT_DIR$/web/main.go" />
         <option value="$PROJECT_DIR$/deplotserver/deploy.sh" />
         <option value="$PROJECT_DIR$/web/controllers/index.go" />
+        <option value="$PROJECT_DIR$/deplotserver/main.go" />
       </list>
     </option>
   </component>
@@ -102,23 +121,24 @@
             <path>
               <item name="go-lottery" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-lottery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-lottery" type="462c0819:PsiDirectoryNode" />
+              <item name="_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="threadsafe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-lottery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-lottery" type="462c0819:PsiDirectoryNode" />
+              <item name="_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ticket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-lottery" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-lottery" type="462c0819:PsiDirectoryNode" />
               <item name="deplotserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-lottery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-lottery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +247,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="26" width="1523" height="993" extended-state="0" />
+    <frame x="239" y="31" width="1523" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20526671" />
@@ -283,8 +303,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/index.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="133">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_demo/annualMeeting/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deplotserver/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

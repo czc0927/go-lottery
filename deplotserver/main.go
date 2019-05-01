@@ -37,8 +37,8 @@ func reLaunch()  {
 	err = cmd.Wait()
 }
 
-// GET http://localhost:8000/
-func (c *baseController) Get() string {
+// Post http://localhost:8000/
+func (c *baseController) Post() string {
 	reLaunch()
 	return fmt.Sprintf("<h1>Hello , this is my reploy!</h1>")
 }
